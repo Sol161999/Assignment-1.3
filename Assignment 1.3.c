@@ -19,7 +19,7 @@ void sort(int size, int *arr)
     printf(".....List is Sorted.....\n\n");
     printf("Lower Age is : %d \n",arr[0]);
     printf("Upper Age is : %d",arr[size-1]);
-    
+    free(arr);   
 }
 int main() 
 {
